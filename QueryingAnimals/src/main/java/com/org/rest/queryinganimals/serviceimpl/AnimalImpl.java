@@ -22,6 +22,7 @@ public class AnimalImpl implements AnimalService{
 		
 		List<com.org.rest.queryinganimals.model.Animal> animalList=new ArrayList<>();
 		animalList.add(new com.org.rest.queryinganimals.model.Animal(new Bird("American Parrot"), new Dog("Pitbull")));
+		animalList.add(new com.org.rest.queryinganimals.model.Animal(new Bird("Indian Parrot"), new Dog("LabourDog")));
 		return animalList;
 	}
 
